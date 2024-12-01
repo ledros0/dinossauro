@@ -41,8 +41,9 @@ int main() {
 
     // Carregar imagens
     ALLEGRO_BITMAP* dino_pulo = al_load_bitmap("C:/Users/Leon/source/repos/JogoEmAllegro/JogoEmAllegro/PGParado.png");
-    ALLEGRO_BITMAP* obstaculo_original = al_load_bitmap("C:/Users/Leon/source/repos/JogoEmAllegro/JogoEmAllegro/Cactus.png");
-
+    ALLEGRO_BITMAP* obstaculo_original = al_load_bitmap("C:/Users/Leon/source/repos/JogoEmAllegro/JogoEmAllegro/predio.png");
+    ALLEGRO_BITMAP* fundo = al_load_bitmap("C:/Users/Leon/source/repos/JogoEmAllegro/JogoEmAllegro/sprite/fundo.jpeg");
+    
     ALLEGRO_BITMAP* historia1 = al_load_bitmap("C:\\Users\\Leon\\source\\repos\\JogoEmAllegro\\JogoEmAllegro\\historia do jogo\\PO1.png");
     ALLEGRO_BITMAP* historia2 = al_load_bitmap("C:\\Users\\Leon\\source\\repos\\JogoEmAllegro\\JogoEmAllegro\\historia do jogo\\PO2.png");
     ALLEGRO_BITMAP* historia3 = al_load_bitmap("C:\\Users\\Leon\\source\\repos\\JogoEmAllegro\\JogoEmAllegro\\historia do jogo\\PO3.png");
